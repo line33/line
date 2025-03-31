@@ -1,0 +1,25 @@
+/* 連結Google雲端字體，提供用戶一致體驗UX */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+/* 透過body標籤，改變全部的文案預設字體 */
+body {font-family: "微軟正黑體","Noto Sans TC",sans-serif;}
+
+/* 變更整體文字大小 html {font-size: 32px;} */
+
+/* 變更個別文字大小 
+h5 {font-size: 2rem;}*/
+
+:root,
+[data-bs-theme=dark] {
+    --bs-dark-rgb: 166, 134, 209;}
+
+/* 紫色文字 */
+.text-purple {color: rgb(162, 26, 117);}
+
+/* 綠色文字 */
+.text-green {color: rgb(26, 162, 39);}
+
+/* 標題二級的文字設定，選取器是標籤，影響整體 */
+h2 {font-size: 1.8rem;font-weight: 800;color: rgb( 39, 102, 229);}
+
+/* 選取器是類別，影響個別，需要手動套用 */
+.h2-custom-pink {font-size: 3rem;font-weight: 800;color: rgb( 255, 0, 195);}
